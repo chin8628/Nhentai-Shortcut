@@ -18,4 +18,4 @@ URL: https://path-to-the-heaven.vercel.app/
 
 ## Contribution
 
-This project allows Hacktoberfest PRs.
+This project accepts Hacktoberfest PRs.
