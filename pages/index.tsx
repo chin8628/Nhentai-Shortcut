@@ -17,6 +17,10 @@ const Home: NextPage = () => {
       <Head>
         <title>Path to the Heaven!</title>
 
+        <link rel="manifest" href="/manifest.json" />
+        <link rel="apple-touch-icon" href="/assets/images/logo.png"></link>
+        <meta name="theme-color" content="#ed2553" />
+
         <meta
           property="og:url"
           content="https://path-to-the-heaven.vercel.app"

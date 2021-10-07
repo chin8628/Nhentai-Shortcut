@@ -1,0 +1,16 @@
+{
+  "name": "Path to Heaven",
+  "short_name": "P2Heaven",
+  "icons": [
+    {
+      "src": "/assets/images/logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#ed2553",
+  "background_color": "#1f1f1f",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait"
+}
