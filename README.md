@@ -14,6 +14,7 @@ URL: https://path-to-the-heaven.vercel.app/
 - Implementing style/UI frameworks. (Choices in my mind are Styled-Component, Material UI, Tailwind, etc.)
 - Dynamic path shortcut in order to support other websites and allow users to select default website.
 - Bookmark feature
+- Placeholder on input to give hint what kind of input users should put in.
 - etc...
 
 ## Contribution
