@@ -28,7 +28,7 @@ const Home: NextPage = () => {
         />
         <meta
           property="og:image"
-          content="https://path-to-the-heaven.vercel.app/screenshot.png"
+          content="https://path-to-the-heaven.vercel.app/assets/images/screenshot.png"
         />
 
         <meta
@@ -38,7 +38,7 @@ const Home: NextPage = () => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:image"
-          content="https://path-to-the-heaven.vercel.app/screenshot.png"
+          content="https://path-to-the-heaven.vercel.app/assets/images/screenshot.png"
         />
       </Head>
       <div className={styles.logo}>
