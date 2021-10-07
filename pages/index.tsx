@@ -13,6 +13,34 @@ const Home: NextPage = () => {
 
   return (
     <div className={styles.container}>
+      <Head>
+        <title>Path to the Heaven!</title>
+
+        <meta
+          property="og:url"
+          content="https://path-to-the-heaven.vercel.app"
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Path to the Heaven!" />
+        <meta
+          property="og:description"
+          content="No time to type! You must go to the HEAVEN!"
+        />
+        <meta
+          property="og:image"
+          content="https://path-to-the-heaven.vercel.app/screenshot.png"
+        />
+
+        <meta
+          name="twitter:title"
+          content="No time to type! You must go to the HEAVEN!"
+        />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:image"
+          content="https://path-to-the-heaven.vercel.app/screenshot.png"
+        />
+      </Head>
       <div className={styles.logo}>
         <Image
           src="/assets/images/nhentai.png"
