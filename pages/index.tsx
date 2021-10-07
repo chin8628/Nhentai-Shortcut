@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-sync-scripts */
 import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
@@ -40,6 +41,22 @@ const Home: NextPage = () => {
           name="twitter:image"
           content="https://path-to-the-heaven.vercel.app/assets/images/screenshot.png"
         />
+
+        <script
+          suppressHydrationWarning={true}
+          src="https://storage.ko-fi.com/cdn/scripts/overlay-widget.js"
+        ></script>
+        <script
+          suppressHydrationWarning={true}
+          dangerouslySetInnerHTML={{
+            __html: `kofiWidgetOverlay.draw('chin8628', {
+                    'type': 'floating-chat',
+                    'floating-chat.donateButton.text': 'Support me',
+                    'floating-chat.donateButton.background-color': '#00b9fe',
+                    'floating-chat.donateButton.text-color': '#fff'
+                  });`,
+          }}
+        ></script>
       </Head>
       <div className={styles.logo}>
         <Image
