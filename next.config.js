@@ -1,4 +1,8 @@
 /** @type {import('next').NextConfig} */
-module.exports = {
+const withOffline = require("next-offline");
+
+const config = {
   reactStrictMode: true,
-}
+};
+
+module.exports = withOffline(config);
