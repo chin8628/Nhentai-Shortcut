@@ -7,9 +7,18 @@ So I decide to create this side project. You just bookmark it or add it to your 
 
 URL: https://path-to-the-heaven.vercel.app/
 
+## Development
+
+WIP
+
+## Features
+
+- Jump to specific page of Nhentai.
+- Can install on your android phone.
+
 ## To-do list
 
-- Support PWA!!! <- I need this so much. I want to install it on my phone.
+- ~~Support PWA!!!~~
 - Add more design to the UI.
 - Implementing style/UI frameworks. (Choices in my mind are Styled-Component, Material UI, Tailwind, etc.)
 - Dynamic path shortcut in order to support other websites and allow users to select default website.
